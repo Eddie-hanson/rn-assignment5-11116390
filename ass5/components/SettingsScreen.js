@@ -1,7 +1,6 @@
-// SettingsScreen.js
 import React, { useContext } from "react";
 import { View, Text, StyleSheet, Switch } from "react-native";
-import { ThemeContext } from "./Theme"; // Adjust the path accordingly
+import { ThemeContext } from "./Theme";
 
 const SettingsScreen = () => {
   const { isDarkTheme, toggleTheme } = useContext(ThemeContext);
