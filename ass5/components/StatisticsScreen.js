@@ -20,7 +20,10 @@ const styles = StyleSheet.create({
     alignItems: "center",
   },
   darkContainer: {
-    backgroundColor: "#333",
+    backgroundColor: "#000000",
+  },
+  darkText: {
+    color: "#fff",
   },
   text: {
     fontSize: 30,

@@ -129,7 +129,7 @@ const HomeScreen = () => {
             </Text>
           </View>
           <Text
-            style={[styles.transactionAmount, isDarkTheme && styles.darkText]}
+            style={[styles.transactionAmount1, isDarkTheme && styles.darkText]}
           >
             $300
           </Text>
@@ -169,7 +169,10 @@ const styles = StyleSheet.create({
     backgroundColor: "#fff",
   },
   darkContainer: {
-    backgroundColor: "#333",
+    backgroundColor: "#000000",
+  },
+  darkText: {
+    color: "#fff",
   },
   header: {
     flexDirection: "row",
@@ -198,6 +201,9 @@ const styles = StyleSheet.create({
   },
   searchIcon: {
     padding: 10,
+    height: 40,
+    width: 40,
+    borderRadius: 60,
   },
   cardImage: {
     width: "100%",
@@ -253,6 +259,11 @@ const styles = StyleSheet.create({
   transactionAmount: {
     fontSize: 16,
     fontWeight: "bold",
+  },
+  transactionAmount1: {
+    fontSize: 16,
+    fontWeight: "bold",
+    color: "#0000cc",
   },
 });
 

@@ -52,7 +52,7 @@ const styles = StyleSheet.create({
     backgroundColor: "#fff",
   },
   darkContainer: {
-    backgroundColor: "#333",
+    backgroundColor: "#000000",
   },
   title: {
     fontSize: 24,
